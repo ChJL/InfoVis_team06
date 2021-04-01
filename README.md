@@ -1,112 +1,17 @@
-# Infomation Visualization
-- This repo showcases our implementation procedure of the project in the course - Information Visualization at University of Amsterdam on 2021.
+# Your Best Country to Live After Retiring in Europe
+- This repo showcases our project's result in the course - **Information Visualization** at University of Amsterdam on 2021.
 - The workflow of our implementation shows <a href="https://github.com/DanferWang/InfoVis_team06/blob/main/Framework_UsingLeaflet/README.md" target="_blank">here</a>.
-- The following parts record our idea, modification, and TA's feedback.
-
-## Week 2 (11/2/21)
-
-**Three primitive ideas**
-
-- OmniArt: combine multiple pictures together to create a new picture.
-- Geographic heatmap of a city.
-- Categorizing paintings by time, artist, etc.
-
-**TA's Response:**
-
-- Social demographic datasets are available on the World Bank website.
-- You have to determine the goals of visualization, such as calculating some ratios which are not visible by looking at the data itself.
-
-**Tasks due nextweek:**
-
-1. Create a team repo on Github
-2. Take meeting notes
-3. Provide slides for next week
-
-## Week 3 (18/2/21)
-
-**Present and elaborate two ideas we chose last week**
-
-**Two elaborate ideas**
-
-- **Online Gallery:** Create a online gallery with OmniArt dataset using filter function and some trends we find.
-- **Where do you wanna live after retiring?** Offer several indicators for user to allocate weight so that our application could return an Area or a country match the user's need. Furthermore, show the result precisely on the world map in our webpage.
-
-**TA's Response:**
-
-- Recommend that we could go for the second one.
-- The second idea is more suitable to Visual Analytic project.
-
-**Tasks due nextweek:**
-
-1. Prepare a prototype
-	- Providing pdf, showing where each component should be placed
-	- Share the screen and run the server to show the wireframe at nextweek meeting
-2. Dataset
-	- Make sure we have dataset ready
-	- Upload them to our Github repo
 
 
+## Usage
+1. Use the Virtual Environment "venv" here. For example, Mac user: $source venv/bin/activate
+2. $bash run.sh
+3. Open the browser and run http://127.0.0.1:5000/
+4. Sliding the sliders at the bottom-left and observe the variation
+5. Once you stop sliding, take a look at the result of map and bar plot
+6. Hover over the choropleth map or the bar plot to find your best choice
 
-## Week 4 (25/2/21)
+##Visualization Overview
 
-**Present our initial information visualization demo**
+## Interactive Functions
 
-**Ask which dataset we should choose: World or Europe**
-
-**TA's Response:**
-
-- Change the current layout to improve visualization
-- Europe dataset is enough
-- Good job for now
-
-**Tasks due nextweek:**
-
-1. Change the current layout according to something like Airbnb's website
-   - Remove the title
-   - Remove the number and put slider on the top
-   - Put ranking result on the left
-   - Put map on the right
-   - Add a legend
-2. Find the missing data we need
-
-
-
-## Week 5 (4/3/21)
-
-**Present our datasets, model and web interface**
-
-- The interaction between the front end and the back end is not completed.
-
-**TA's Response:**
-
-- Make the interface more recognizable
-- Pay more attention to fine details, aethetic features and usability
-
-**Tasks due nextweek:**
-
-1. Remove the submit botton and add on-change handler for all the control
-2. Color code/Attributes
-3. Branding: Use piechart-like control system to help users identify and control each indicator.
-4. Hover: After selecting a country in the barchart, highlight the corresponding area on the map 
-5. Keep historical results and make comparison: use sesssion storage
-6. Add a legend to the map to explain it
-
-## Week 6 (11/3/21)
-
-**Present our webpage, and with Flask backend**
-
-- The interaction between the front end and the back end has some bugs to fix.
-
-**TA's Response:**
-
-- some advice for fixing the bugs
-- better arrangement and interaction on pie chart and slider
-
-**Tasks due nextweek:**
-
-1. Wheel(Pie chart) on top
-2. Real time slider,change in real time 
-3. move the sliders to bottom
-4. slider wider, whole width 
-5. Result scores(bar chart), fix it on the back end (real time)
-6. legends and redrawing (map)
