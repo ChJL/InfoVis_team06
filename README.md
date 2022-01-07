@@ -13,6 +13,15 @@
     </i>
 </p>
 
+## Demo Video
+<table>
+    <tbody>
+<!-- YOUTUBE:START --><tr><td><a href="https://www.youtube.com/watch?v=zHhZQshANS8"><img width="140px" src="document/demo.png"></a></td>
+<td><a href="https://www.youtube.com/watch?v=zHhZQshANS8">Your Best Country to Retire in Europe</a><br/>April, 2021</td></tr>
+<!-- YOUTUBE:END -->
+    </tbody>
+</table>
+
 ## Short Description
 Retirement occupies an important place in everyone's life plan. Living in another country after retirement is becoming more attractive than ever. Our work aims to develop a visual application to help users choose the most suitable country for them among 31 European countries. We develop a multiview interface with Flask based web service, and add interactivity to it. After the users input their personal preferences on five indicators, our system can calculate the corresponding recommendation results and rankings, and visually present them on the web for easy comparison.
 
