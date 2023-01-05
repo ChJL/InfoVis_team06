@@ -13,6 +13,14 @@
     </i>
 </p>
 
+## Play this application right now
+Update: Jan 5th, 2023
+#### Deploy using Vercel
+I tried to deploy this application using <a href="https://vercel.com/">Vercel</a>.
+You can now play around with our application online :)
+
+Link to use the application <a href="https://information-visualization-chjl.vercel.app/">here</a>.
+
 ## Demo Video
 <table>
     <tbody>
@@ -31,16 +39,16 @@ Retirement occupies an important place in everyone's life plan. Living in anothe
     <span style>Initial Look</span>
 </p>
 
-## Usage
+## Usage to run the application locally
 __Pre-requirements:__ Python3.7
 
-* Start Virtual Environment
+* Install the packages
     ```
-    source venv/bin/activate
+    pip3 install -r requirements.txt
     ```
 * Run the program
     ```
-    bash run.sh
+    python3 test.py
     ```
 * Open the browser and run http://127.0.0.1:5000/
 
