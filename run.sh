@@ -1,3 +1,3 @@
 export FLASK_APP=test.py
-export FLASK_ENV=development
+export FLASK_DEBUG=True
 flask run
